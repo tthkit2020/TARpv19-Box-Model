@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.mainDiv {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    font-size: 0;
+}
+
+.mainDiv > div {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
